@@ -1,7 +1,7 @@
 <?php
 
 require dirname(__FILE__) . '/I18N.php';
-I18n::instance('pt_PT');
+I18N::instance('pt_PT');
 
 ?>
 <!doctype html>
@@ -11,6 +11,6 @@ I18n::instance('pt_PT');
 		<title>translate test...</title>
 	</head>
 	<body>
-	<?php echo I18n::translate("I hope it's useful for someone"); ?>
+	<?php echo I18N::translate("I hope it's useful for someone"); ?>
 	</body>
 </html>
